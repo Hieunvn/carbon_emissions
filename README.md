@@ -226,6 +226,22 @@ LIMIT 5;
 Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
 
 ### 3.6 What is the trend of carbon footprints (PCFs) over the years?
+```sql
+SELECT 
+	year, 
+	ROUND(SUM(carbon_footprint_pcf),2) AS Total_pcf
+FROM product_emissions
+GROUP BY year
+ORDER BY year;
+```
+|year|Total_pcf|
+|----|---------|
+|2013|503857.00|
+|2014|624226.00|
+|2015|10840415.00|
+|2016|1640182.00|
+|2017|340271.00|
+
 
 
 
