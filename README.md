@@ -118,7 +118,6 @@ GROUP BY product_name
 ORDER BY AVG(carbon_footprint_pcf) DESC
 LIMIT 10;
 ```
-Results;
 |product_name|Average PCF|
 |------------|-----------|
 |Wind Turbine G128 5 Megawats|3718044.00|
@@ -131,6 +130,7 @@ Results;
 |Mercedes-Benz GLE (GLE 500 4MATIC)|91000.00|
 |Mercedes-Benz S-Class (S 500)|85000.00|
 |Mercedes-Benz SL (SL 350)|72000.00|
+Result => The Wind Turbines contribute the most to carbon emissions.
 
 ### 3.2 What are the industry groups of these products?
 ```sql
@@ -144,7 +144,6 @@ GROUP BY product_name
 ORDER BY AVG(carbon_footprint_pcf) DESC
 LIMIT 10;
 ```
-Results;
 |product_name|Average PCF|industry_group|id|
 |------------|-----------|--------------|--|
 |Wind Turbine G128 5 Megawats|3718044.00|Electrical Equipment and Machinery|13|
@@ -157,6 +156,7 @@ Results;
 |Mercedes-Benz GLE (GLE 500 4MATIC)|91000.00|Automobiles & Components|7|
 |Mercedes-Benz S-Class (S 500)|85000.00|Automobiles & Components|7|
 |Mercedes-Benz SL (SL 350)|72000.00|Automobiles & Components|7|
+Results => The products that contribute the most to carbon emissions are from 'Electrical Equipment and Machinery' industry_group.
 
 ### 3.3 What are the industries with the highest contribution to carbon emissions?
 
