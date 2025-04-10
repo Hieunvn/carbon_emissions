@@ -242,9 +242,6 @@ ORDER BY year;
 |2016|1640182.00|
 |2017|340271.00|
 
-
-
-
 ### 3.7 Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time?
 
 
