@@ -158,9 +158,79 @@ LIMIT 10;
 |Mercedes-Benz S-Class (S 500)|85000.00|Automobiles & Components|7|
 |Mercedes-Benz SL (SL 350)|72000.00|Automobiles & Components|7|
 
-Results => The products that contribute the most to carbon emissions are from 'Electrical Equipment and Machinery' industry_group.
+Result => The products that contribute the most to carbon emissions are from 'Electrical Equipment and Machinery' industry_group.
 
 ### 3.3 What are the industries with the highest contribution to carbon emissions?
+```sql
+SELECT 
+	ROUND(sum(product_emissions.carbon_footprint_pcf),2) AS Total_PCF,
+	product_emissions.product_name,
+	product_emissions.industry_group_id,
+	industry_groups.industry_group
+FROM product_emissions
+JOIN industry_groups ON(industry_groups.id = product_emissions.industry_group_id )
+GROUP BY industry_group 
+ORDER BY Total_PCF DESC
+LIMIT 5;
+```
+|Total_PCF|product_name|industry_group_id|industry_group|
+|---------|------------|-----------------|--------------|
+|9801558.00|ACTI9 IID K 2P 40A 30MA AC-TYPE RESIDUAL CURRENT CIRCUIT BREAKER|13|Electrical Equipment and Machinery|
+|2582264.00|VW Polo V 1.6 TDI BlueMotion Technology|7|Automobiles & Components|
+|577595.00|KURALON  fiber|19|Materials|
+|363776.00|Multifunction Printers|25|Technology Hardware & Equipment|
+|258712.00|Office Chair|8|Capital Goods|
+
+Result => The industries with the highest contribution to carbon emissions are Electrical Equipment and Machinery, Automobiles & Components....
+
+### 3.4 What are the companies with the highest contribution to carbon emissions?
+```sql
+SELECT 
+	round(sum(product_emissions.carbon_footprint_pcf),2) AS Total_pcf,
+	companies.company_name
+FROM product_emissions
+JOIN companies ON(companies.id = product_emissions.company_id )
+GROUP BY company_name 
+ORDER BY Total_pcf DESC
+LIMIT 5;
+```
+|Total_pcf|company_name|
+|---------|------------|
+|9778464.00|"Gamesa Corporación Tecnológica, S.A."|
+|1594300.00|Daimler AG|
+|655960.00|Volkswagen AG|
+|212016.00|"Mitsubishi Gas Chemical Company, Inc."|
+|191687.00|"Hino Motors, Ltd."|
+
+Result => The companies with the highest contribution to carbon emissions are Gamese Corporacion Tecnologica, S.A. , Daimler AG, Volkswagen AG....
+
+### 3.5 What are the countries with the highest contribution to carbon emissions?
+```sql
+SELECT 
+	round(sum(product_emissions.carbon_footprint_pcf),2) AS Total_pcf,
+	countries.country_name
+FROM product_emissions
+JOIN countries ON(countries.id = product_emissions.company_id )
+GROUP BY country_name 
+ORDER BY Total_pcf DESC
+LIMIT 5;
+```
+|Total_pcf|country_name|
+|---------|------------|
+|9778464.00|Germany|
+|212016.00|Lithuania|
+|191687.00|Greece|
+|132012.00|Japan|
+|105600.00|Colombia|
+
+Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
+
+### 3.6 What is the trend of carbon footprints (PCFs) over the years?
+
+
+### 3.7 Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time?
+
+
 
 
 
