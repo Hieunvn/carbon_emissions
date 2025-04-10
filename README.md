@@ -226,6 +226,7 @@ LIMIT 5;
 Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
 
 ### 3.6 What is the trend of carbon footprints (PCFs) over the years?
+```sql
 
 
 ### 3.7 Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time?
