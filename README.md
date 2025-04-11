@@ -223,6 +223,12 @@ LIMIT 5;
 |132012.00|Japan|
 |105600.00|Colombia|
 
+
+
+
+
+
+
 Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
 
 ### 3.6 What is the trend of carbon footprints (PCFs) over the years?
