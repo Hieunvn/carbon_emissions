@@ -202,7 +202,9 @@ LIMIT 5;
 |212016.00|"Mitsubishi Gas Chemical Company, Inc."|
 |191687.00|"Hino Motors, Ltd."|
 
-Result => The companies with the highest contribution to carbon emissions are Gamese Corporacion Tecnologica, S.A. , Daimler AG, Volkswagen AG....
+![image](https://github.com/user-attachments/assets/5e49c22c-e72f-4304-a2bd-29958d32d50d)
+
+Result => The companies with the highest contribution to carbon emissions are Gamese Corporacion Tecnologica.
 
 ### 3.5 What are the countries with the highest contribution to carbon emissions?
 ```sql
