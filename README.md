@@ -179,7 +179,9 @@ LIMIT 5;
 |363776.00|Multifunction Printers|25|Technology Hardware & Equipment|
 |258712.00|Office Chair|8|Capital Goods|
 
-Result => The industries with the highest contribution to carbon emissions are Electrical Equipment and Machinery, Automobiles & Components....
+![image](https://github.com/user-attachments/assets/4e0bc57c-e763-4f19-841d-414b8d5453c1)
+
+Result => The industries with the highest contribution to carbon emissions are Electrical Equipment and Machinery.
 
 ### 3.4 What are the companies with the highest contribution to carbon emissions?
 ```sql
