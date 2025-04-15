@@ -3,8 +3,6 @@
 ## 1. Introduction
 This report aims to analyze carbon emissions to examine the carbon footprint across various industries. We aim to identify sectors with the highest levels of emissions by analyzing them across countries and years, as well as to uncover trends.
 
-![image](https://github.com/user-attachments/assets/2a899357-3545-4f20-bd0d-bb499c635e78)
-
 ### 1.1 Data model
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
 
@@ -226,12 +224,6 @@ LIMIT 5;
 |132012.00|Japan|
 |105600.00|Colombia|
 
-
-
-
-
-
-
 Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
 
 ### 3.6 What is the trend of carbon footprints (PCFs) over the years?
@@ -304,6 +296,9 @@ ORDER BY
 |Household & Personal Products|0.00|0.00|0.00|0.00|0.00|
 |Tobacco|0.00|0.00|1.00|0.00|0.00|
 |Semiconductors & Semiconductors Equipment|0.00|0.00|3.00|0.00|0.00|
+
+
+![image](https://github.com/user-attachments/assets/df6dc8ac-ca50-44dc-844a-6014e60be919)
 
 Result => 
 
