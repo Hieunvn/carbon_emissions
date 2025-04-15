@@ -204,7 +204,7 @@ LIMIT 5;
 
 ![image](https://github.com/user-attachments/assets/5e49c22c-e72f-4304-a2bd-29958d32d50d)
 
-Result => The companies with the highest contribution to carbon emissions are Gamese Corporacion Tecnologica.
+Result => The companies with the highest contribution to carbon emissions are Gamese Corporacion Tecnologica, S.A.
 
 ### 3.5 What are the countries with the highest contribution to carbon emissions?
 ```sql
@@ -225,7 +225,9 @@ LIMIT 5;
 |132012.00|Japan|
 |105600.00|Colombia|
 
-Result => The countries with the highest contribution to carbon emissions are Germany, Lithuania, Greece....
+![image](https://github.com/user-attachments/assets/e0b0f4fa-3ebe-4e4d-acca-6933cbc47641)
+
+Result => The countries with the highest contribution to carbon emissions are Germany.
 
 ### 3.6 What is the trend of carbon footprints (PCFs) over the years?
 ```sql
