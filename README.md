@@ -62,9 +62,6 @@ SELECT * FROM industry_groups LIMIT 5;
 |4|"Mining - Iron, Aluminum, Other Metals"|
 |5|"Pharmaceuticals, Biotechnology & Life Sciences"|
 
-
-![image](https://github.com/user-attachments/assets/335888f0-794d-4a54-b905-51062fe3da80)
-
 ## 2. Data explore
 Data dulpicate
 ```sql
