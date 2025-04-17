@@ -248,7 +248,7 @@ ORDER BY year;
 
 ![image](https://github.com/user-attachments/assets/2301e1da-d82a-4b43-b7d9-b6879456583e)
 
-Result => 
+Result => This data does not show a trend in carbon footprints over the year. However, I can see that the total carbon footprint had the highest increase in 2015 and the lowest in 2017.
 
 ### 3.7 Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time?
 ```sql
@@ -305,7 +305,9 @@ ORDER BY
 
 ![image](https://github.com/user-attachments/assets/df6dc8ac-ca50-44dc-844a-6014e60be919)
 
-Result => 
+Result => The data shows irregular changes, with no consistent decrease.
+Done!
+
 
 
 
