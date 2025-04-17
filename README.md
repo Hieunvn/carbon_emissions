@@ -306,7 +306,7 @@ ORDER BY
 ![image](https://github.com/user-attachments/assets/df6dc8ac-ca50-44dc-844a-6014e60be919)
 
 Result => The data shows irregular changes, with no consistent decrease.
-Done!
+Finished!
 
 
 
